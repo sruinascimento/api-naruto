@@ -1,0 +1,1 @@
+ALTER TABLE personagem ADD idade INT NOT NULL;
