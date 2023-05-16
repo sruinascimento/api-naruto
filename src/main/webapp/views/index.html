@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>API | Naruto</title>
 </head>
 <body>
+    <header></header>
+    <main>
+        <form class="form" action="/api/personagens" method="post">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
+            <label for="idade">Idade</label>
+            <input id="idade" type="text">
+            <label for="cla">Clã</label>
+            <input id="cla" type="text">
+            <label for="estilo">Estilo</label>
+            <input id="estilo" type="text">
+            <label for="patente">Patente</label>
+            <input id="patente" type="text">
+            <label for="imagem">Imagem</label>
+            <input id="imagem" type="url">
 
+            <input id="submit" type="submit" value="Cadastrar">
+        </form>
+    </main>
+    <footer></footer>
 </body>
 </html>

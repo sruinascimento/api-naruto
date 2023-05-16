@@ -1,0 +1,41 @@
+body {
+    background-image: url('/src/main/webapp/views/assets/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #17201d;
+}
+
+.form {
+    width: 300px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #e37621;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    gap: 5px;
+}
+
+.form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FBE58C;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+#submit {
+    font-size: 22px;
+    color: #17201d;
+}
